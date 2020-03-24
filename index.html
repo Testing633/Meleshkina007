@@ -8,18 +8,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Hello</title>
 </head>
 
 <body>
     <!-- Навигация -->
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand text-light bg-dark" href="#">System Testing</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse d-flex justify-content-sm-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link text-light bg-dark active" href="#">Главная <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link text-light bg-dark" href="#">Лекции</a>
@@ -31,17 +32,20 @@
 
     <!-- Слайдер -->
     <div class="row">
-        <div class="container">
-            <div id="carouselExampleInterval" class="carousel slide m-auto" data-ride="carousel">
+        <div class="container-fluid">
+            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="5000">
-                        <img src="images/page-1.png" class="d-block w-80 h-20" alt="...">
+                        <img src="img/slider/page_1.png" class="d-block w-100 h-20" alt="...">
                     </div>
                     <div class="carousel-item" data-interval="2000">
-                        <img src="images/page-2.png" class="d-block w-80 h-20" alt="...">
+                        <img src="img/slider/page_2.png" class="d-block w-100 h-20" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/page-3.png" class="d-block w-80 h-20" alt="...">
+                        <img src="img/slider/page_3.png" class="d-block w-100 h-20" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider/page_4.png" class="d-block w-100 h-20" alt="...">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
@@ -58,80 +62,71 @@
 
 
     <!-- Три блока с контента -->
-    <div class="row"><div class="container"><div class="h1 text-center font-weight-bold">Тестирование</div></div></div>
-    <div class="row">
-        <div class="container d-flex text-center">
-    
-            <div class="col">
-               <img src="images/img_8217%201.png" class="img-fluid" alt="">
-               <div> Тестирование помогает находить и исправлять ошибки на самой ранней возможной стадии</div>
+    <div class="row struck_block">
+        <div class="container-fluid d-flex text-center justify-content-center  d-flex align-items-center block_1">
+            <div class="col-lg-3 col-sm-12">
+                <img src="img/block_1/pic_1.png" class="pic_const" alt="">
+                <div class="h3">Ошибки</div>
+                <div> Тестирование помогает находить и исправлять ошибки на самой ранней возможной стадии</div>
             </div>
-            <div class="col">
-               <img src="images/accounting%201.png" class="img-fluid w-auto" alt="">
-               <div>
-                Одна из самых популярных методик повышения качества программных продуктов</div>
+            <div class="col-lg-3 col-sm-12">
+                <img src="img/block_1/pic_2.png" class="pic_const" alt="">
+                <div class="h3">Качество</div>
+                <div>Одна из самых популярных методик повышения качества программных продуктов</div>
             </div>
-            <div class="col">
-               <img src="images/image%204.png" class="img-fluid" alt="">
-               <div> При новых подходах тестирование становится более производительным и эффективным</div>
+            <div class="col-lg-3 col-sm-12">
+                <img src="img/block_1/pic_3.png" class="pic_const" alt="">
+                <div class="h3">Производительность</div>
+                <div> При новых подходах тестирование становится более производительным и эффективным</div>
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="container d-flex justify-content-center">
-            <div class="col text-justify">
+    <div class="row block_2 bg-secondary struck_block">
+        <div class="container block_2 d-flex justify-content-center">
+            <img src="./img/block_2/pic2_true.png" class="img" alt="">
+        </div>
+    </div>
+
+    <div class="row struck_block">
+        <div class="container d-flex align-items-center align-middle block_3">
+            <div class="col text-center mt-5">
                 Тестирование (testing) программного обеспечения (ПО) - это процесс исследования ПО с целью выявления ошибок и определения соответствия между реальным и ожидаемым поведением ПО, осуществляемый на основе набора тестов, выбранных определённым образом. В более широком смысле, тестирование ПО - это техника контроля качества программного продукта, включающая в себя проектирование тестов, выполнение тестирования и анализ полученных результатов.
                 Очень часто современные программные продукты разрабатываются в сжатые сроки и при ограниченных бюджетах проектов.
-
-                Программирование сегодня перешло из разряда искусства в разряд ремесел для многих миллионов специалистов. Но, к сожалению, в такой спешке разработчики зачастую игнорируют необходимость обеспечения защищённости своих продуктов, подвергая тем самым пользователей неоправданному риску. Контроль качества (тестирование) считается важным в процессе разработки ПО, потому что обеспечивает безопасность, надёжность, удобство создаваемого продукта. В настоящее время существует великое множество подходов и методик к решению задачи тестирования ПО, но эффективное тестирование сложных программных систем - процесс творческий, не сводящийся к следованию строгим и чётким правилам.
+                <div class="pic_place"><img src="img/block_3/pic.png" class="img" id="description_img" alt=""></div>
             </div>
         </div>
     </div>
 
-
-    <!-- Подвал -->
-   <footer class="bg-dark text-light">
-  <div class="container">
     <div class="row">
-      <div class="col-md-3">
-      <h3>About Us</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Pellentesque imperdiet consectetur dolor in elementum.</p>
-
-      </div>
-      <div class="col-md-2 list">
-        <ul>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-        </ul>
-
-      </div>
-      <div class="col-md-2 list">
-        <ul>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-          <li><a href="#">Lorem Ipsum</a></li>
-        </ul>
-
-      </div>
-      <div class="col-md-2">
-    
-      </div>
-      <div class="col-md">
-        <h5><strong>Contact Info</strong></h5>
-        <p><strong>Adress:</strong> 514 S. Magnolia St.
-Orlando, FL 32806 <!-- Random Adress -->
-</p>
-        <p><strong>Email:</strong> email@example.com</p>
-        <p><strong>Tel.:</strong> (888) 888 8888</p>
-      </div>
+        <div class="container">
+            <div class="h2"></div>
+        </div>
     </div>
-  </div>
-    </footer>
+
+
+
+    <div id="footer">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-secondary">
+                <div class="item">E-mail: *********</div>
+                <div class="item">Number: *********</div>
+                <div class="item">Website: ********</div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="copyrights">
+        <div class="container">
+            <p>
+                &copy; Copyrights <strong>System testing</strong>. All Rights Reserved
+            </p>
+            <div class="credits">
+                Created template by Ninjas
+            </div>
+        </div>
+    </div>
     <!--/Footer-->
 
     <!-- Optional JavaScript -->

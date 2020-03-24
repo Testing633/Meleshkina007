@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAoC;EAChC,aAAa;IACT,MAAM,EAAE,MAAM",
+"sources": ["../sass/resolution.scss"],
+"names": [],
+"file": "resolution.css"
+}
