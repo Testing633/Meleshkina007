@@ -1,17 +1,16 @@
-#footer {
+footer #footer {
   background: #2d2d2d;
   margin: 0;
   padding-top: 40px;
   padding-bottom: 30px; }
-  #footer .item {
+  footer #footer .item {
     color: #bdbdbd;
     font-size: 20px;
     padding: 20px;
     display: inline-flex; }
-    #footer .item:hover {
+    footer #footer .item:hover {
       color: #ff7878; }
-
-#copyrights {
+footer #copyrights {
   background: #222222;
   padding: 20px 0;
   text-align: center;
@@ -20,9 +19,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center; }
-  #copyrights p {
+  footer #copyrights p {
     margin-bottom: 5px; }
-    #copyrights p .credits {
+    footer #copyrights p .credits {
       color: #999; }
 
 /*# sourceMappingURL=footer.css.map */
