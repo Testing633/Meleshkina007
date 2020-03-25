@@ -24,4 +24,9 @@ footer #copyrights {
     footer #copyrights p .credits {
       color: #999; }
 
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+
 /*# sourceMappingURL=lessons.css.map */
