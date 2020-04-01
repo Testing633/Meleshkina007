@@ -1,52 +1,68 @@
-@media screen and (min-width: 650px) {
-  .struck_block {
-    height: 1700px; } }
-footer #footer {
-  background: #2d2d2d;
-  margin: 0;
-  padding-top: 40px;
-  padding-bottom: 30px; }
-  footer #footer .item {
-    color: #bdbdbd;
-    font-size: 20px;
-    padding: 20px;
-    display: inline-flex; }
-    footer #footer .item:hover {
-      color: #ff7878; }
-footer #copyrights {
-  background: #222222;
-  padding: 20px 0;
-  text-align: center;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
-  footer #copyrights p {
-    margin-bottom: 5px; }
-    footer #copyrights p .credits {
-      color: #999; }
+/*
+Error: Invalid CSS after " src: url(": expected ")", was ""https://bootst..."
+        on line 42 of D:\Project(s)\sass\style.scss
 
-.struck_block {
-  height: 600px; }
+37: }
+38: 
+39: 
+40: @font-face {
+41:  font-family: "DublonC";
+42:  src: url("https://bootstraptema.ru/assets/fonts/DublonC.otf%22);
+43:  color: white;
+44: }
+45: 
+46: 
+47: @-webkit-keyframes scroll {
 
-.block_1 .pic_const {
-  width: 50px;
-  height: 50px; }
-
-.block_2 img {
-  height: 600px; }
-
-.block_3 {
-  padding: 0;
-  overflow: hidden; }
-  .block_3 .pic_place {
-    height: 300px;
-    padding: 0; }
-    .block_3 .pic_place img {
-      width: 600px;
-      position: relative;
-      bottom: -95px;
-      z-index: -1; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+D:\Project(s)\sass\style.scss:42
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:730:in `assert_tok'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:520:in `funcall'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:499:in `ident'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:291:in `unary_not'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:291:in `unary_div'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:291:in `unary_minus'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:291:in `unary_plus'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `times_div_or_mod'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `plus_or_minus'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `relational'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `eq_or_neq'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `and_expr'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:272:in `or_expr'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:473:in `space'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:414:in `interpolation'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:338:in `expr'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:721:in `assert_expr'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:988:in `value!'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:796:in `block in try_declaration'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `call'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:225:in `directive_body'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:217:in `directive'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/Web programs/Coala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/Web programs/Coala/bin/sass:22:in `load'
+D:/Web programs/Coala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \" src: url(\": expected \")\", was \"\"https://bootst...\"\A         on line 42 of D:\Project(s)\sass\style.scss\A \A 37: }\A 38: \A 39: \A 40: @font-face {\A 41:  font-family: \"DublonC\";\A 42:  src: url(\"https://bootstraptema.ru/assets/fonts/DublonC.otf%22);\A 43:  color: white;\A 44: }\A 45: \A 46: \A 47: @-webkit-keyframes scroll {"; }
