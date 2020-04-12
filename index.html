@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <!-- Required хуй tags -->
+    <!-- Required tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Hello</title>
+    <title>Главная</title>
 </head>
 
 <body>
@@ -22,10 +22,21 @@
         </button>
         <div class="collapse navbar-collapse d-flex justify-content-sm-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link text-light bg-dark active" href="#">Главная <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-light bg-dark active" href="index.html">Главная <span class="sr-only">(current)</span></a>
+                
+                <div class="dropdown mr-1">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+                        Задания
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                        <a class="dropdown-item" href="pages/labs.html">Лабораторные работы</a>
+                        <a class="dropdown-item" href="pages/tests.html">Тесты</a>
+                        <a class="dropdown-item" href="pages/useful_links.html">Полезные ресурсы</a>
+                        <a class="dropdown-item" href="homework.html">Домашнее задание</a>
+                    </div>
+                </div>
                 <a class="nav-item nav-link text-light bg-dark" href="pages/lessons.html">Лекции</a>
-                <a class="nav-item nav-link text-light bg-dark" href="pages/homework.html">Домашнее задание</a>
-                <a class="nav-item nav-link text-light bg-dark" href="#">О предмете</a>
+                <a class="nav-item nav-link text-light bg-dark" href="pages/lessons.html">О предмете</a>
             </div>
         </div>
     </nav>
@@ -57,21 +68,29 @@
         </a>
     </div>
 
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col marquee">
+                <h1>МДК 05.03 Тестирование информационных систем</h1>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Три блока с контента -->
     <div class="container-fluid struck_block d-flex align-items-center justify-content-center block_1">
         <div class="row d-flex justify-content-around">
-            <div class="col-lg-3 col-sm-12 d-flex flex-column align-items-center">
+            <div class="col-lg-3 col-sm-12 d-flex flex-column text-center align-items-center">
                 <img src="img/Main/block_1/pic_1.png" class="pic_const" alt="">
                 <div class="h3">Ошибки</div>
                 <div> Тестирование помогает находить и исправлять ошибки на самой ранней возможной стадии</div>
             </div>
-            <div class="col-lg-3 col-sm-12 d-flex flex-column align-items-center">
+            <div class="col-lg-3 col-sm-12 d-flex flex-column text-center align-items-center">
                 <img src="img/Main/block_1/pic_2.png" class="pic_const" alt="">
                 <div class="h3">Качество</div>
                 <div>Одна из самых популярных методик повышения качества программных продуктов</div>
             </div>
-            <div class="col-lg-3 col-sm-12 d-flex flex-column align-items-center">
+            <div class="col-lg-3 col-sm-12 d-flex flex-column text-center align-items-center">
                 <img src="img/Main/block_1/pic_3.png" class="pic_const" alt="">
                 <div class="h3">Производительность</div>
                 <div> При новых подходах тестирование становится более производительным и эффективным</div>
@@ -86,35 +105,35 @@
     </div>
 
     <div class="container-fluid struck_blockd-flex align-items-center align-middle block_3">
-        
-            <div class="container mt-5 text-center">
-                Тестирование (testing) программного обеспечения (ПО) - это процесс исследования ПО с целью выявления ошибок и определения соответствия между реальным и ожидаемым поведением ПО, осуществляемый на основе набора тестов, выбранных определённым образом. В более широком смысле, тестирование ПО - это техника контроля качества программного продукта, включающая в себя проектирование тестов, выполнение тестирования и анализ полученных результатов.
-                Очень часто современные программные продукты разрабатываются в сжатые сроки и при ограниченных бюджетах проектов.
-                <div class="pic_place"><img src="img/Main/block_3/pic.png" class="img" id="description_img" alt=""></div>
-            </div>
-        </div>
 
-<footer>
-    <div id="footer" class="container-fluid">
-
-        <div class="row d-flex justify-content-center text-secondary">
-            <div class="item">E-mail: *********</div>
-            <div class="item">Number: *********</div>
-            <div class="item">Website: ********</div>
-        </div>
-
-
-    </div>
-    <div id="copyrights" class="container-fluid">
-        <div class="row">
-            <p>
-                &copy; Copyrights <strong>System testing</strong>. All Rights Reserved
-            </p>
-            <div class="credits">
-                Created template by Ninjas
-            </div>
+        <div class="container mt-5 text-center">
+            Тестирование (testing) программного обеспечения (ПО) - это процесс исследования ПО с целью выявления ошибок и определения соответствия между реальным и ожидаемым поведением ПО, осуществляемый на основе набора тестов, выбранных определённым образом. В более широком смысле, тестирование ПО - это техника контроля качества программного продукта, включающая в себя проектирование тестов, выполнение тестирования и анализ полученных результатов.
+            Очень часто современные программные продукты разрабатываются в сжатые сроки и при ограниченных бюджетах проектов.
+            <div class="pic_place"><img src="img/Main/block_3/pic.png" class="img" id="description_img" alt=""></div>
         </div>
     </div>
+
+    <footer>
+        <div id="footer" class="container-fluid">
+
+            <div class="row d-flex justify-content-center text-secondary">
+                <div class="item">E-mail: *********</div>
+                <div class="item">Number: *********</div>
+                <div class="item">Website: ********</div>
+            </div>
+
+
+        </div>
+        <div id="copyrights" class="container-fluid">
+            <div class="row">
+                <p>
+                    &copy; Copyrights <strong>System testing</strong>. All Rights Reserved
+                </p>
+                <div class="credits">
+                    Created template by Ninjas
+                </div>
+            </div>
+        </div>
     </footer>
     <!--/Footer-->
 
