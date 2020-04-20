@@ -1,15 +1,11 @@
 @import "footer.scss";
 
-
-
-footer {
+footer{
     display: flex;
     flex: 0 0 auto;
-
 }
 
 .main{
-    display: flex;
     flex: 1 0 auto;
     min-height: calc(100vh - 230px);
 }
