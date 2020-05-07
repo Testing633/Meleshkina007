@@ -30,9 +30,11 @@ footer #copyrights {
 .struck_block {
   height: 600px; }
 
-.block_1 .pic_const {
-  width: 50px;
-  height: 50px; }
+.block_1 {
+  height: 400px; }
+  .block_1 .pic_const {
+    width: 50px;
+    height: 50px; }
 
 .block_2 img {
   height: 600px; }
