@@ -1,7 +1,28 @@
 @import "footer.scss";
 
-//footer{
-//    width: 100%;
-//    position: absolute;
-//    bottom: 0;
-//}
+
+.mainContent{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 12em);
+    grid-template-rows: repeat(6, 12em);
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        color: black;
+            font-size: 25px;
+            text-decoration: none;
+        &:hover{
+            background-color: beige;
+            transition: 1s;
+        }
+        
+            color: black;
+            font-size: 25px;
+            text-decoration: none;
+        
+        
+    }
+}
