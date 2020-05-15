@@ -34,31 +34,28 @@ footer #copyrights {
     footer #copyrights p .credits {
       color: #999; }
 
-.mainContent {
-  display: grid;
-  grid-template-columns: repeat(6, 12em);
-  grid-template-rows: repeat(6, 12em); }
-  .mainContent a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border: 1px solid gray;
-    color: black;
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    text-decoration: none; }
-    .mainContent a:hover {
-      background-color: beige;
-      -webkit-transition: 1s;
-      transition: 1s; }
+.mainContent a {
+  height: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid gray;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-decoration: none; }
+  .mainContent a:hover {
+    background-color: beige;
+    -webkit-transition: 1s;
+    transition: 1s; }
 
 footer {
   position: absolute;

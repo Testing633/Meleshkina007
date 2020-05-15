@@ -2,11 +2,12 @@
 
 
 .mainContent{
-//    position: relative;
-    display: grid;
-    grid-template-columns: repeat(6, 12em);
-    grid-template-rows: repeat(6, 12em);
+  
+//    display: grid;
+//    grid-template-columns: repeat(6, 10%);
+//    grid-template-rows: repeat(6, 10%);
     a{
+        height: 170px;
         display: flex;
         justify-content: center;
         align-items: center;
