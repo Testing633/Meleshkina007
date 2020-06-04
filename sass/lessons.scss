@@ -1,32 +1,32 @@
 @import "footer.scss";
 
 
-.mainContent{
-  
-//    display: grid;
-//    grid-template-columns: repeat(6, 10%);
-//    grid-template-rows: repeat(6, 10%);
-    a{
-        height: 170px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid gray;
-        color: black;
-            font-size: 25px;
-            text-decoration: none;
-        &:hover{
-            background-color: beige;
-            transition: 1s;
-        }
-        
-            color: black;
-            font-size: 25px;
-            text-decoration: none;
-        
-        
-    }
-}
+//.mainContent{
+//  
+////    display: grid;
+////    grid-template-columns: repeat(6, 10%);
+////    grid-template-rows: repeat(6, 10%);
+//    a{
+//        height: 170px;
+//        display: flex;
+//        justify-content: center;
+//        align-items: center;
+//        border: 1px solid gray;
+//        color: black;
+//            font-size: 25px;
+//            text-decoration: none;
+//        &:hover{
+//            background-color: beige;
+//            transition: 1s;
+//        }
+//        
+//            color: black;
+//            font-size: 25px;
+//            text-decoration: none;
+//        
+//        
+//    }
+//}
 
 footer{
     position: relative;

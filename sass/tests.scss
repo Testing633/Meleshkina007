@@ -9,3 +9,29 @@ footer{
     flex: 1 0 auto;
     min-height: calc(100vh - 230px);
 }
+
+.mainContent{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 12em);
+    grid-template-rows: repeat(3, 12em);
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        color: black;
+            font-size: 25px;
+            text-decoration: none;
+        &:hover{
+            background-color: beige;
+            transition: 1s;
+        }
+        
+            color: black;
+            font-size: 25px;
+            text-decoration: none;
+        
+        
+    }
+}
