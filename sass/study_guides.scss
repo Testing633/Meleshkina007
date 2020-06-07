@@ -1,6 +1,9 @@
 @import "footer.scss";
-.main-content {
-   margin-bottom: 120px;
+
+
+.mainContent{
+   display: flex;
+    flex: 0 0 auto;
     
 }
 
@@ -11,6 +14,11 @@ footer {
 }
 
 nav {
-    
+    display: flex;
+    flex: 0 0 auto;
    
+}
+
+body{
+    min-height: calc(100vh - 230px);
 }
