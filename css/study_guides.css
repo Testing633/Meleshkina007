@@ -1,0 +1,34 @@
+footer #footer {
+  background: #2d2d2d;
+  margin: 0;
+  padding: 0; }
+  footer #footer .item {
+    color: #bdbdbd;
+    font-size: 15px;
+    padding: 30px;
+    display: inline-flex; }
+    footer #footer .item:hover {
+      color: #ff7878; }
+footer #copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  footer #copyrights p {
+    margin-bottom: 5px; }
+    footer #copyrights p .credits {
+      color: #999; }
+
+.main-content {
+  margin-bottom: 120px; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto; }
+
+/*# sourceMappingURL=study_guides.css.map */
