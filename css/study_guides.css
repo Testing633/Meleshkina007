@@ -23,12 +23,15 @@ footer #copyrights {
     footer #copyrights p .credits {
       color: #999; }
 
-.main-content {
-  margin-bottom: 120px; }
+.mainContent {
+  flex-direction: column;
+  display: flex;
+  flex: 1 0 auto;
+  height: 1100px; }
 
 footer {
   display: flex;
-  flex-direction: column;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  flex-direction: column; }
 
 /*# sourceMappingURL=study_guides.css.map */
