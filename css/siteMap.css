@@ -5,13 +5,13 @@ footer #footer {
   footer #footer .item {
     color: #bdbdbd;
     font-size: 15px;
-    padding: 30px;
+    padding: 5%;
     display: inline-flex; }
     footer #footer .item:hover {
       color: #ff7878; }
 footer #copyrights {
   background: #222222;
-  padding: 20px 0;
+  padding: 7%;
   text-align: center;
   color: #fff;
   display: flex;

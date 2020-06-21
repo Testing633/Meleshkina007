@@ -5,7 +5,7 @@ footer #footer {
   footer #footer .item {
     color: #bdbdbd;
     font-size: 15px;
-    padding: 30px;
+    padding: 5%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -13,7 +13,7 @@ footer #footer {
       color: #ff7878; }
 footer #copyrights {
   background: #222222;
-  padding: 20px 0;
+  padding: 7%;
   text-align: center;
   color: #fff;
   display: -webkit-box;
@@ -35,27 +35,27 @@ footer #copyrights {
       color: #999; }
 
 .struck_block {
-  height: 600px; }
+  height: 60%; }
 
 .block_1 {
-  height: 400px; }
+  height: 60%; }
   .block_1 .pic_const {
     width: 50px;
     height: 50px; }
 
 .block_2 img {
-  height: 600px; }
+  height: 60%; }
 
 .block_3 {
   padding: 0;
   overflow: hidden; }
   .block_3 .pic_place {
-    height: 300px;
+    height: 30%;
     padding: 0; }
     .block_3 .pic_place img {
-      width: 600px;
+      width: 100%;
       position: relative;
-      bottom: -95px;
+      bottom: -75px;
       z-index: -1; }
 
 /*# sourceMappingURL=style.css.map */

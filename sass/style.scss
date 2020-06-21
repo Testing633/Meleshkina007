@@ -2,11 +2,11 @@
 @import "footer.scss";
 
 .struck_block {
-    height: 600px;
+    height: 60%;
 }
 
 .block_1 {
-    height: 400px;
+    height: 60%;
     .pic_const {
         width: 50px;
         height: 50px;
@@ -15,7 +15,7 @@
 
 .block_2 {
     img {
-        height: 600px;
+        height: 60%;
     }
 }
 
@@ -25,59 +25,14 @@
 
     .pic_place {
        
-        height: 300px;
+        height: 30%;
         padding: 0;
 
         img {
-            width: 600px;
+            width: 100%;
             position: relative;
-            bottom: -95px;
+            bottom: -75px;
             z-index: -1;
         }
     }
 }
-//@font-face {
-// font-family: "DublonC";
-// src: url("https://bootstraptema.ru/assets/fonts/DublonC.otf");
-// color: white;
-//}
-//
-//
-//@-webkit-keyframes scroll {
-// 0% {
-// -webkit-transform: translate(0, 0);
-// transform: translate(0, 0);
-// }
-// 100% {
-// -webkit-transform: translate(-100%, 0);
-// transform: translate(-100%, 0)
-// }
-//}
-//
-//@keyframes scroll {
-// 0% {
-// transform: translate(0, 0);
-// }
-// 100% {
-// transform: translate(-100%, 0)
-// }
-//}
-//
-//.marquee {
-// max-width: 100%;
-// white-space: nowrap;
-// overflow: hidden;
-//}
-//
-//.marquee * {
-// display: inline-block;
-// padding-left: 100%;
-// margin-top: 50px;
-// -webkit-animation: scroll 21s infinite linear;
-// animation: scroll 21s infinite linear;
-//}
-//.marquee *:hover {
-//-webkit-animation-play-state: paused;
-//animation-play-state: paused;
-//}
-
