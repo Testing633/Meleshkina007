@@ -6,8 +6,6 @@ footer #footer {
     color: #bdbdbd;
     font-size: 15px;
     padding: 5%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex; }
     footer #footer .item:hover {
       color: #ff7878; }
@@ -16,19 +14,10 @@ footer #copyrights {
   padding: 7%;
   text-align: center;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
   footer #copyrights p {
     margin-bottom: 5px; }
     footer #copyrights p .credits {
@@ -57,5 +46,12 @@ footer #copyrights {
       position: relative;
       bottom: -75px;
       z-index: -1; }
+
+.main-littering {
+  width: 87.2%;
+  font-size: 20px; }
+
+.main-littering-one {
+  width: 65%; }
 
 /*# sourceMappingURL=style.css.map */
