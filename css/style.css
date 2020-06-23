@@ -6,6 +6,8 @@ footer #footer {
     color: #bdbdbd;
     font-size: 15px;
     padding: 5%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex; }
     footer #footer .item:hover {
       color: #ff7878; }
@@ -14,10 +16,19 @@ footer #copyrights {
   padding: 7%;
   text-align: center;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   footer #copyrights p {
     margin-bottom: 5px; }
     footer #copyrights p .credits {
@@ -27,13 +38,13 @@ footer #copyrights {
   height: 60%; }
 
 .block_1 {
-  height: 60%; }
+  width: 100%; }
   .block_1 .pic_const {
-    width: 50px;
-    height: 50px; }
+    width: 100px;
+    height: 100px; }
 
 .block_2 img {
-  height: 60%; }
+  width: 60%; }
 
 .block_3 {
   padding: 0;
@@ -48,10 +59,9 @@ footer #copyrights {
       z-index: -1; }
 
 .main-littering {
-  width: 87.2%;
   font-size: 20px; }
 
 .main-littering-one {
-  width: 65%; }
+  width: 690px; }
 
 /*# sourceMappingURL=style.css.map */
